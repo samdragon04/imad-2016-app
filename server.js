@@ -9,15 +9,15 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/Ackno', function (req, res) {
+app.get('Ackno', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Ackno.html'));
 });
 
-app.get('/ui/comingsoon', function (req, res) {
+app.get('comingsoon', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'comingsoon.html'));
 });
 
-app.get('/ui/contact', function (req, res) {
+app.get('contact', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
 });
 
@@ -25,15 +25,15 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/2-banner.png', function (req, res) {
+app.get('2-banner.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '2-banner.png'));
 });
 
-app.get('/ui/comingsoon', function (req, res) {
+app.get('comingsoon', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'comingsoon.png'));
 });
 
-app.get('/ui/thankyou', function (req, res) {
+app.get('thankyou', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'thankyou.png'));
 });
 
